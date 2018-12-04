@@ -1,0 +1,10 @@
+.container {
+	weight : 350px;
+	border-color: #99999;
+	border : 1px;
+	background: #FFFFFF;
+
+}
+input{
+  display:block;
+}

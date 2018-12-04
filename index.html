@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" href="style2.css">
+</head>
+<body>
+	
+	<div class = "container">
+		<FORM NAME ="Calc">
+	<input type='text' name='nilai' placeholder='Input Nilai'/> <br>
+	<br><button type="button" class="btn btn-primary btn-lg">CLEAR</button>
+	<input type='text' name='hasil' placeholder='Hasil Nilai' <br>
+	<br>
+	
+<br><INPUT TYPE ="button" NAME="tambah" VALUE="+" OnClick="Calc.nilai.value +='+'">
+<INPUT TYPE ="button" NAME="kurang" VALUE="-" OnClick="Calc.nilai.value +='-'">
+<INPUT TYPE ="button" NAME="bagi" VALUE=":" OnClick="Calc.nilai.value +=':'">
+<INPUT TYPE ="button" NAME="kali" VALUE="x" OnClick="Calc.nilai.value +='x'">
+<INPUT TYPE ="button" NAME="hitung" VALUE="=" OnClick="Calc.hasil.value = eval(Calc.nilai.value)">
+</INPUT>
+</body>
+</html>
